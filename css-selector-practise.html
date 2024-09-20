@@ -53,12 +53,18 @@
         font-size: 30px;
       }
 
+      /*
       div.a li:nth-child(4),
       div.a li:nth-child(5),
       div.a li:nth-child(6),
       div.a li:nth-child(7)
       {  
         color:red
+      }
+      */
+
+      div.a li:nth-child(n+4):nth-child(-n+7){
+          color: red
       }
 
       div.b li:nth-child(-n+25){
